@@ -12,8 +12,6 @@ import auto_core_amazon.Selenium;
 
 public class LoginAmazonPage extends Selenium {
 
-	
-	//Test
 	public static By sign_in_hover = By.id("nav-link-yourAccount");
 	//static By sign_in_btn = By.xpath("(//span[contains(text(),'Sign in')]");
 	public static By enter_email_or_phone_field = By.xpath("//input[@type='email']");
